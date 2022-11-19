@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E78919722928FA2E00A3E3D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78919712928FA2E00A3E3D4 /* AppDelegate.swift */; };
+		E78919742928FA2E00A3E3D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78919732928FA2E00A3E3D4 /* SceneDelegate.swift */; };
+		E78919762928FA2E00A3E3D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78919752928FA2E00A3E3D4 /* ViewController.swift */; };
+		E78919792928FA2E00A3E3D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78919772928FA2E00A3E3D4 /* Main.storyboard */; };
+		E789197B2928FA2F00A3E3D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E789197A2928FA2F00A3E3D4 /* Assets.xcassets */; };
+		E789197E2928FA2F00A3E3D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E789197C2928FA2F00A3E3D4 /* LaunchScreen.storyboard */; };
+		E78919892928FA3000A3E3D4 /* Rgb_Hex_ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78919882928FA3000A3E3D4 /* Rgb_Hex_ConverterTests.swift */; };
+		E78919932928FA3000A3E3D4 /* Rgb_Hex_ConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78919922928FA3000A3E3D4 /* Rgb_Hex_ConverterUITests.swift */; };
+		E78919952928FA3000A3E3D4 /* Rgb_Hex_ConverterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78919942928FA3000A3E3D4 /* Rgb_Hex_ConverterUITestsLaunchTests.swift */; };
+		E78919A32929172600A3E3D4 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = E78919A22929172600A3E3D4 /* Toast */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E78919852928FA3000A3E3D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E78919662928FA2E00A3E3D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E789196D2928FA2E00A3E3D4;
+			remoteInfo = "Rgb-Hex-Converter";
+		};
+		E789198F2928FA3000A3E3D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E78919662928FA2E00A3E3D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E789196D2928FA2E00A3E3D4;
+			remoteInfo = "Rgb-Hex-Converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E789196E2928FA2E00A3E3D4 /* Rgb-Hex-Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rgb-Hex-Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E78919712928FA2E00A3E3D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E78919732928FA2E00A3E3D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E78919752928FA2E00A3E3D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E78919782928FA2E00A3E3D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E789197A2928FA2F00A3E3D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E789197D2928FA2F00A3E3D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E789197F2928FA2F00A3E3D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E78919842928FA3000A3E3D4 /* Rgb-Hex-ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rgb-Hex-ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E78919882928FA3000A3E3D4 /* Rgb_Hex_ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rgb_Hex_ConverterTests.swift; sourceTree = "<group>"; };
+		E789198E2928FA3000A3E3D4 /* Rgb-Hex-ConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rgb-Hex-ConverterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E78919922928FA3000A3E3D4 /* Rgb_Hex_ConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rgb_Hex_ConverterUITests.swift; sourceTree = "<group>"; };
+		E78919942928FA3000A3E3D4 /* Rgb_Hex_ConverterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rgb_Hex_ConverterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E789196B2928FA2E00A3E3D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78919A32929172600A3E3D4 /* Toast in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78919812928FA3000A3E3D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E789198B2928FA3000A3E3D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E78919652928FA2E00A3E3D4 = {
+			isa = PBXGroup;
+			children = (
+				E78919702928FA2E00A3E3D4 /* Rgb-Hex-Converter */,
+				E78919872928FA3000A3E3D4 /* Rgb-Hex-ConverterTests */,
+				E78919912928FA3000A3E3D4 /* Rgb-Hex-ConverterUITests */,
+				E789196F2928FA2E00A3E3D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E789196F2928FA2E00A3E3D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E789196E2928FA2E00A3E3D4 /* Rgb-Hex-Converter.app */,
+				E78919842928FA3000A3E3D4 /* Rgb-Hex-ConverterTests.xctest */,
+				E789198E2928FA3000A3E3D4 /* Rgb-Hex-ConverterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E78919702928FA2E00A3E3D4 /* Rgb-Hex-Converter */ = {
+			isa = PBXGroup;
+			children = (
+				E78919712928FA2E00A3E3D4 /* AppDelegate.swift */,
+				E78919732928FA2E00A3E3D4 /* SceneDelegate.swift */,
+				E78919752928FA2E00A3E3D4 /* ViewController.swift */,
+				E78919772928FA2E00A3E3D4 /* Main.storyboard */,
+				E789197A2928FA2F00A3E3D4 /* Assets.xcassets */,
+				E789197C2928FA2F00A3E3D4 /* LaunchScreen.storyboard */,
+				E789197F2928FA2F00A3E3D4 /* Info.plist */,
+			);
+			path = "Rgb-Hex-Converter";
+			sourceTree = "<group>";
+		};
+		E78919872928FA3000A3E3D4 /* Rgb-Hex-ConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				E78919882928FA3000A3E3D4 /* Rgb_Hex_ConverterTests.swift */,
+			);
+			path = "Rgb-Hex-ConverterTests";
+			sourceTree = "<group>";
+		};
+		E78919912928FA3000A3E3D4 /* Rgb-Hex-ConverterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E78919922928FA3000A3E3D4 /* Rgb_Hex_ConverterUITests.swift */,
+				E78919942928FA3000A3E3D4 /* Rgb_Hex_ConverterUITestsLaunchTests.swift */,
+			);
+			path = "Rgb-Hex-ConverterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E789196D2928FA2E00A3E3D4 /* Rgb-Hex-Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E78919982928FA3000A3E3D4 /* Build configuration list for PBXNativeTarget "Rgb-Hex-Converter" */;
+			buildPhases = (
+				E789196A2928FA2E00A3E3D4 /* Sources */,
+				E789196B2928FA2E00A3E3D4 /* Frameworks */,
+				E789196C2928FA2E00A3E3D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rgb-Hex-Converter";
+			packageProductDependencies = (
+				E78919A22929172600A3E3D4 /* Toast */,
+			);
+			productName = "Rgb-Hex-Converter";
+			productReference = E789196E2928FA2E00A3E3D4 /* Rgb-Hex-Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E78919832928FA3000A3E3D4 /* Rgb-Hex-ConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E789199B2928FA3000A3E3D4 /* Build configuration list for PBXNativeTarget "Rgb-Hex-ConverterTests" */;
+			buildPhases = (
+				E78919802928FA3000A3E3D4 /* Sources */,
+				E78919812928FA3000A3E3D4 /* Frameworks */,
+				E78919822928FA3000A3E3D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E78919862928FA3000A3E3D4 /* PBXTargetDependency */,
+			);
+			name = "Rgb-Hex-ConverterTests";
+			productName = "Rgb-Hex-ConverterTests";
+			productReference = E78919842928FA3000A3E3D4 /* Rgb-Hex-ConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E789198D2928FA3000A3E3D4 /* Rgb-Hex-ConverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E789199E2928FA3000A3E3D4 /* Build configuration list for PBXNativeTarget "Rgb-Hex-ConverterUITests" */;
+			buildPhases = (
+				E789198A2928FA3000A3E3D4 /* Sources */,
+				E789198B2928FA3000A3E3D4 /* Frameworks */,
+				E789198C2928FA3000A3E3D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E78919902928FA3000A3E3D4 /* PBXTargetDependency */,
+			);
+			name = "Rgb-Hex-ConverterUITests";
+			productName = "Rgb-Hex-ConverterUITests";
+			productReference = E789198E2928FA3000A3E3D4 /* Rgb-Hex-ConverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E78919662928FA2E00A3E3D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					E789196D2928FA2E00A3E3D4 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					E78919832928FA3000A3E3D4 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = E789196D2928FA2E00A3E3D4;
+					};
+					E789198D2928FA3000A3E3D4 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = E789196D2928FA2E00A3E3D4;
+					};
+				};
+			};
+			buildConfigurationList = E78919692928FA2E00A3E3D4 /* Build configuration list for PBXProject "Rgb-Hex-Converter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E78919652928FA2E00A3E3D4;
+			packageReferences = (
+				E78919A12929172600A3E3D4 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+			);
+			productRefGroup = E789196F2928FA2E00A3E3D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E789196D2928FA2E00A3E3D4 /* Rgb-Hex-Converter */,
+				E78919832928FA3000A3E3D4 /* Rgb-Hex-ConverterTests */,
+				E789198D2928FA3000A3E3D4 /* Rgb-Hex-ConverterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E789196C2928FA2E00A3E3D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E789197E2928FA2F00A3E3D4 /* LaunchScreen.storyboard in Resources */,
+				E789197B2928FA2F00A3E3D4 /* Assets.xcassets in Resources */,
+				E78919792928FA2E00A3E3D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78919822928FA3000A3E3D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E789198C2928FA3000A3E3D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E789196A2928FA2E00A3E3D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78919762928FA2E00A3E3D4 /* ViewController.swift in Sources */,
+				E78919722928FA2E00A3E3D4 /* AppDelegate.swift in Sources */,
+				E78919742928FA2E00A3E3D4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78919802928FA3000A3E3D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78919892928FA3000A3E3D4 /* Rgb_Hex_ConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E789198A2928FA3000A3E3D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78919932928FA3000A3E3D4 /* Rgb_Hex_ConverterUITests.swift in Sources */,
+				E78919952928FA3000A3E3D4 /* Rgb_Hex_ConverterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E78919862928FA3000A3E3D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E789196D2928FA2E00A3E3D4 /* Rgb-Hex-Converter */;
+			targetProxy = E78919852928FA3000A3E3D4 /* PBXContainerItemProxy */;
+		};
+		E78919902928FA3000A3E3D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E789196D2928FA2E00A3E3D4 /* Rgb-Hex-Converter */;
+			targetProxy = E789198F2928FA3000A3E3D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E78919772928FA2E00A3E3D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E78919782928FA2E00A3E3D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E789197C2928FA2F00A3E3D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E789197D2928FA2F00A3E3D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E78919962928FA3000A3E3D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E78919972928FA3000A3E3D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E78919992928FA3000A3E3D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72TLKYA825;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rgb-Hex-Converter/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saidkurt.Rgb-Hex-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E789199A2928FA3000A3E3D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72TLKYA825;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rgb-Hex-Converter/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saidkurt.Rgb-Hex-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E789199C2928FA3000A3E3D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72TLKYA825;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saidkurt.Rgb-Hex-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rgb-Hex-Converter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rgb-Hex-Converter";
+			};
+			name = Debug;
+		};
+		E789199D2928FA3000A3E3D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72TLKYA825;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saidkurt.Rgb-Hex-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rgb-Hex-Converter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rgb-Hex-Converter";
+			};
+			name = Release;
+		};
+		E789199F2928FA3000A3E3D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72TLKYA825;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saidkurt.Rgb-Hex-ConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rgb-Hex-Converter";
+			};
+			name = Debug;
+		};
+		E78919A02928FA3000A3E3D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72TLKYA825;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saidkurt.Rgb-Hex-ConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rgb-Hex-Converter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E78919692928FA2E00A3E3D4 /* Build configuration list for PBXProject "Rgb-Hex-Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78919962928FA3000A3E3D4 /* Debug */,
+				E78919972928FA3000A3E3D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E78919982928FA3000A3E3D4 /* Build configuration list for PBXNativeTarget "Rgb-Hex-Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78919992928FA3000A3E3D4 /* Debug */,
+				E789199A2928FA3000A3E3D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E789199B2928FA3000A3E3D4 /* Build configuration list for PBXNativeTarget "Rgb-Hex-ConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E789199C2928FA3000A3E3D4 /* Debug */,
+				E789199D2928FA3000A3E3D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E789199E2928FA3000A3E3D4 /* Build configuration list for PBXNativeTarget "Rgb-Hex-ConverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E789199F2928FA3000A3E3D4 /* Debug */,
+				E78919A02928FA3000A3E3D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E78919A12929172600A3E3D4 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E78919A22929172600A3E3D4 /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E78919A12929172600A3E3D4 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E78919662928FA2E00A3E3D4 /* Project object */;
+}
